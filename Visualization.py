@@ -2,6 +2,7 @@
 from collections import defaultdict
 from matplotlib import pyplot as plt
 import numpy as np
+from ChessBoard import *
 class BoardRepresentation:
 
     def __init__(self,raw_data):
@@ -51,7 +52,7 @@ class BoardRepresentation:
 
 if __name__ == '__main__':
 
-    from ChessBoard import *
+
     test = Chessgame()
     b = BoardRepresentation(test._current_state_raw)
 

@@ -108,7 +108,7 @@ class Chessgame:
         opponent = {'Black':'White','White':'Black'}
         current_player = 'White'
         while leave is None:
-            #print(current_player+'\'s Turn!')
+            print(current_player+'\'s Turn!')
             if current_player == 'White':
                 if AI1 is not None:
                     leave = white_ai()
@@ -129,6 +129,7 @@ class Chessgame:
                 else:
                     pass
             #self.Visual(self._current_state_raw)
+            print(self)
 
 
             self.testing_holdback.append([copy.copy(self.current),copy.deepcopy(self._current_state_raw),

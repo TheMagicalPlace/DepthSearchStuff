@@ -12,6 +12,7 @@ import functools
 from ChessAI_semirandom import *
 from ChessAI_alphabeta import  *
 from ChessBoard import *
+from Visualization import *
 
 
 if __name__ == '__main__':

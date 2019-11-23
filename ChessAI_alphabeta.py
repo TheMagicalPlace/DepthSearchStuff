@@ -161,7 +161,7 @@ class AlphaBeta(ChessTurnABC,Chessgame):
 
 class MultiprocessAB(AlphaBeta):
 
-    def __init__(self, player, root,depth=4):
+    def __init__(self, player, root,depth=3):
         super().__init__(player)
 
         self.root_node = ChessNode(depth,root)
